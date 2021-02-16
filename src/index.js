@@ -3,6 +3,7 @@ const client = require("./bot");
 const ban = require('./ban/ban')
 const inf = require('./information/inf')
 const manageRole = require('./rol/managerole');
+const basics = require('./basicfunctions');
 
 const bot = require("./bot");
 
@@ -16,4 +17,7 @@ bot.on("message", async (message) => {
     await ban.ban(message);
 
     await manageRole.addRole(message);
+    await manageRole.removeRole(message);
+
+    await basics.clear(message);
 });
