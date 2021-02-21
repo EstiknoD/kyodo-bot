@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node build/index.js",
     "dev": "nodemon build/index.js",
-    "build": "tsc -w",
-    "start": "node build/index.js"
+    "build": "tsc -w"
   },
   "author": "Estikno",
   "license": "ISC",
