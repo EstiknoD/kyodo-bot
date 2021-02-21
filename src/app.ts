@@ -7,4 +7,4 @@ client.on('ready', () => {
     client.user?.setStatus('online');
 });
 
-client.login('ODA1Mzg2ODk3MDY4MjYxMzgx.YBaI_w.I8k7XY6jxqXmjZQcUT9iMQF7opE');
+client.login('Tu toke aqui');
